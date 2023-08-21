@@ -16,7 +16,7 @@ const UserSchema = new Schema({
 	},
 	avatarUrl: String,
 }, {
-	timestamps: true // прикрутит время создания схемы
+	timestamps: true
 })
 
 export const UserModel = model('User', UserSchema)
